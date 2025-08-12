@@ -4,7 +4,7 @@ from flask import Flask, request, send_file, jsonify
 
 VERTOPAL_API = "https://api.vertopal.com/v1"
 APP_ID = os.getenv("e151a516-0ba1-cb61-7f05-7fc71d667d7a")
-APP_TOKEN = os.getenv("kLLKtmdF-ffLY4lvKoBZ6UpNTPPYuHr-FneVbbtMOWfddhO0wSHtFL8D6kn4xL5x-Y7y5-EceQZUtnRRn1sgMu_owEROYGXfcVqXkGE5YCRQPQFO")
+APP_TOKEN = os.getenv("rP1h79r91DO0F7UHK0Q-yWOQW3JhNRYP5ddGGoJ0TOwVudFmk2eB8BcWFBwjqpkfxMI52bh3IvTz8KZ0qsjQHKGHU4Pgh8c.c9KH-iwx-B")
 
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 50 * 1024 * 1024  # 50MB
